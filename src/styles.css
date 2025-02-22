@@ -1,0 +1,17 @@
+.custom-navbar {
+  background-color: #333;
+}
+
+.custom-navbar .nav-link {
+  color: white;
+  transition: color 0.3s ease-in-out;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #f8b400;
+}
+
+.custom-navbar .nav-link.active {
+  color: #f8b400;
+  font-weight: bold;
+}
